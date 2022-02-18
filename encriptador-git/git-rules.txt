@@ -1,0 +1,27 @@
+____________
+|          |
+|.gitignore| ---> escribes carpetas o archivos a ignorar dentro de .gitignore
+|__________|
+
+git init        -  inicializa proyecto
+				-  crea el master
+-----------------------------------------------------------------------------
+git status      -  muestra los archivos y su estado
+-----------------------------------------------------------------------------
+git add         -  añade archivos al proyecto
+                -  pasando de: no identificado -a- en espacio de trabajo 
+-----------------------------------------------------------------------------
+git config :--global user.email "contact@hot"
+		   :--global user.name "contact@hot"
+-----------------------------------------------------------------------------
+git commit      -  crea la primera snapshot mas basica de git
+-----------------------------------------------------------------------------
+git log         -  ver registro de los archivos (--incluido el hash--)
+-----------------------------------------------------------------------------
+git checkout -- -  revertit cambios
+-----------------------------------------------------------------------------
+git diff        -  diferencias entre versiones del archivo  
+-----------------------------------------------------------------------------
+git branch (*)  -  muestra la rama actual
+				- *nombre de la nueva rama (crea una nueva rama)
+
